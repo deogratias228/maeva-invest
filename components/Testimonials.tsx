@@ -78,14 +78,15 @@ export default function Testimonials() {
                                 <p className="text-sm ">{t.country}</p>
                             </div>
                             <div className="absolute inset-0 flex items-center justify-center bg-black/30">
-                                <div className="w-12 h-12 bg-[#FFFFFF] rounded-full flex items-center justify-center">
+                                <div className="w-12 h-12 bg-[#FFFFFF] text-black text-2xl rounded-full flex items-center justify-center">
                                     ▶
                                 </div>
                             </div>
                         </>
                     )}
                     {t.id !== activeId && (
-                        <div className="absolute top-2 left-2 rotate-90 origin-bottom-left text-3xl tracking-widest font-semibold text-[#FFFFFF] dark:text-[#34D399] bg-[#34D399] dark:bg-[#FFFFFF] dark:bg-[#0F172A]">
+                        // <div className="absolute top-2 left-2 rotate-90 origin-bottom-left text-3xl tracking-widest font-semibold text-[#FFFFFF] dark:text-[#34D399] bg-[#34D399] dark:bg-[#FFFFFF] dark:bg-[#0F172A]">
+                        <div className="absolute top-2 left-2 rotate-90 origin-bottom-left text-3xl tracking-widest font-semibold text-[#34D399] bg-[#0F172A]">
                             {t.name}
                         </div>
                     )}

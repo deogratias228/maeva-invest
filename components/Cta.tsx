@@ -7,7 +7,7 @@ export default function Cta() {
 
     const handleClick = () => {
         const number = '22891902824';
-        const message = `Bonjour, je m'appelle ${name.trim() || '...'} et je souhaite commencer mon investissement.`;
+        const message = `Bonjour, je m'appelle *${name.trim() || '...'}* et je souhaite commencer mon investissement.`;
 
         const whatsappUrl = `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
 

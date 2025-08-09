@@ -27,7 +27,8 @@ export default function Header() {
             />
 
             {/* Overlay */}
-            <div className="absolute inset-0 bg-[#FFFFFF] dark:bg-[#0F172A] opacity-95 z-10"></div>
+            {/* <div className="absolute inset-0 bg-[#FFFFFF] dark:bg-[#0F172A] opacity-95 z-10"></div> */}
+            <div className="absolute inset-0 bg-[#0F172A] opacity-95 z-10"></div>
 
             {/* Stars */}
             <div className="absolute inset-0 z-15 pointer-events-none">

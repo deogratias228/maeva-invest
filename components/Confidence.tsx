@@ -28,7 +28,8 @@ export default function Confidence() {
             {items.map((step, idx) => (
                 <div
                     key={idx}
-                    className="flex flex-col items-center bg-[#F3F4F6] dark:bg-[#1E293B] rounded-xl px-2 py-2 md:py-3 md:px-4 h-full w-full"
+                    // className="flex flex-col items-center bg-[#F3F4F6] dark:bg-[#1E293B] rounded-xl px-2 py-2 md:py-3 md:px-4 h-full w-full"
+                    className="flex flex-col items-center bg-[#1E293B] rounded-xl px-2 py-2 md:py-3 md:px-4 h-full w-full"
                 >
                     <div className="flex w-full h-full justify-center">
                         <img src={step.icone} alt={`Étape ${idx + 1}`} className="w-auto h-20" />

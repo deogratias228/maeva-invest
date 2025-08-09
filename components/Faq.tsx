@@ -34,14 +34,16 @@ export default function Faq() {
                 {questions.map((q, idx) => (
                     <details
                         key={q.question}
-                        className="bg-[#F3F4F6] dark:bg-[#1E293B] rounded-lg shadow-2xl mb-2 transition-all"
+                        // className="bg-[#F3F4F6] dark:bg-[#1E293B] rounded-lg shadow-2xl mb-2 transition-all"
+                        className="bg-[#1E293B] rounded-lg shadow-2xl mb-2 transition-all"
                     >
                         <summary className="flex items-center justify-between cursor-pointer px-2 md:px-4 py-2 md:py-3 font-semibold select-none">
                             <span className="flex items-center gap-2">
                                 <span className="text-lg font-bold mr-2">+</span>
                                 {q.question}
                             </span>
-                            <span className="w-4 h-4 flex items-center justify-center rounded-full bg-gray-400 dark:bg-[#0F172A] text-xs font-semibold">+</span>
+                            {/* <span className="w-4 h-4 flex items-center justify-center rounded-full bg-gray-400 dark:bg-[#0F172A] text-xs font-semibold">+</span> */}
+                            <span className="w-4 h-4 flex items-center justify-center rounded-full bg-[#0F172A] text-xs font-semibold">+</span>
                         </summary>
                         <div className="px-6 py-4 text-sm">{q.answer}</div>
                     </details>

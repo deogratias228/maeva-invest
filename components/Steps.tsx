@@ -20,7 +20,8 @@ export default function Steps() {
             {steps.map((step, idx) => (
                 <div
                     key={idx}
-                    className="flex flex-col items-center bg-gary-200 border dark:border-0 shadow border-gray-300 dark:bg-[#1E293B] rounded-xl px-2 py-2 md:py-3 md:px-4 h-full w-full"
+                    // className="flex flex-col items-center bg-gary-200 border dark:border-0 shadow border-gray-300 dark:bg-[#1E293B] rounded-xl px-2 py-2 md:py-3 md:px-4 h-full w-full"
+                    className="flex flex-col items-center bg-gary-200 border-0 shadow border-gray-300 bg-[#1E293B] rounded-xl px-2 py-2 md:py-3 md:px-4 h-full w-full"
                 >
                     <span className="mb-3">{step.title}</span>
                     <div className="flex w-full h-full items-end justify-end">
