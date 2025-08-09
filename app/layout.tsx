@@ -13,11 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 const poppins = Poppins({
+  subsets: ['latin'],
   variable: "--font-poppins",
   weight: ['300', '400', '600'],
 });
 
 const logoFont = Schoolbell ({
+  subsets: ['latin'],
   variable: "--font-scoolbell",
   weight: ['400']
 });
